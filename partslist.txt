@@ -1,9 +1,9 @@
 GlitchBand - Core Parts List (Flexible Embedded Cybersecurity Device)
 
 === CORE ELECTRONICS ===
-1. ESP32-S3FN8
+1. ESP32-S3FN8/Digikey Part #: 1965-ESP32-S3FN8-ND
    - Role: Main microcontroller (Wi-Fi, BLE, USB-OTG, 8MB Flash)
-   - Cost: $3.50
+   - Cost: $4.05
 
 2. 40 MHz Crystal Oscillator
    - Role: Required timing crystal for ESP32 Wi-Fi/BLE
