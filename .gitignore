@@ -51,5 +51,27 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# ESP-IDF specific
+build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.uf2
+*.bootloader.bin
+*.partition_table.bin
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# PlatformIO (if ever used)
+.pio/
+.clang_complete
+compile_commands.json
+
+# Misc
 *.dwo
+*.orig
+.DS_Store
+Thumbs.db
+*~
