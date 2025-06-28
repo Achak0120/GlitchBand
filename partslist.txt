@@ -1,0 +1,57 @@
+GlitchBand - Core Parts List (Flexible Embedded Cybersecurity Device)
+
+=== CORE ELECTRONICS ===
+1. ESP32-S3FN8
+   - Role: Main microcontroller (Wi-Fi, BLE, USB-OTG, 8MB Flash)
+   - Cost: $3.50
+
+2. 40 MHz Crystal Oscillator
+   - Role: Required timing crystal for ESP32 Wi-Fi/BLE
+   - Cost: $0.30
+
+3. 3.7V LiPo Battery (600 mAh)
+   - Role: Flat, rechargeable power source with 1–2 hr runtime
+   - Cost: $5.00
+
+4. TP4056 Charging IC (SMD version)
+   - Role: Charges battery via USB-C safely
+   - Cost: $0.70
+
+5. 3.3V LDO Voltage Regulator
+   - Role: Steps down battery voltage for ESP32
+   - Cost: $0.40
+
+6. W25Q32 SPI NOR Flash (optional)
+   - Role: Stores beacon HTML or logs
+   - Cost: $0.50
+
+7. 1.28” Round LCD (GC9A01)
+   - Role: Display for touchscreen UI
+   - Cost: $10.00
+
+8. WS2812B RGB LEDs (x6)
+   - Role: Visual feedback for scan, alerts, modes
+   - Cost: $3.00
+
+9. USB-C Edge Connector / Male Plug Module
+   - Role: Direct device plug-in interface
+   - Cost: $0.40
+
+10. Passive Components
+    - Role: Resistors, capacitors, ESD diode
+    - Cost: $1.00
+
+11. Flexible 2-layer PCB (JLCPCB)
+    - Role: Curved, wearable board to mount all components
+    - Cost: $20.00
+
+12. TPU 3D-Printed Wristband Shell
+    - Role: Enclosure for GlitchBand device
+    - Cost: $5.00
+
+=== OPTIONAL EXPANSION ===
+13. Lacuna LS300 Satellite Uplink Module (UART interface)
+    - Role: Sends text/SOS messages to satellite during outages
+    - Cost: $25.00 – $30.00
+
+=== TOTAL ESTIMATED BASE COST: ~$50.00 ===
