@@ -1,0 +1,1 @@
+// Tracks battery %, triggers low-power mode
